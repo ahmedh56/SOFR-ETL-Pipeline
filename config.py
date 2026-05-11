@@ -19,4 +19,21 @@ DB_PARAMS = {
     "port": os.getenv("DB_PORT")
 }
 
+pipeline_manifest = [
+    {
+        "series_id": "SOFR", 
+        "table": "fact_sofr_rates", 
+        "col": "sofr_value"
+    },
+    {
+        "series_id": "DGS10", 
+        "table": "fact_10yr_treasury_rates", 
+        "col": "yield_value"
+    },
+    {
+        "series_id": "DGS2", 
+        "table": "fact_2yr_treasury_rates", 
+        "col": "yield_value"
+    }
+]
 
