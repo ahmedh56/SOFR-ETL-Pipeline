@@ -28,12 +28,12 @@ pipeline_manifest = [
     {
         "series_id": "DGS10", 
         "table": "fact_10yr_treasury_rates", 
-        "col": "yield_value"
+        "col": "yield_10yr"
     },
     {
         "series_id": "DGS2", 
         "table": "fact_2yr_treasury_rates", 
-        "col": "yield_value"
+        "col": "yield_2yr"
     }
 ]
 

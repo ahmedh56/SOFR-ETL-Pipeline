@@ -52,7 +52,7 @@ def load_to_server(data, table_name, value_column_name):
         with conn:
             with conn.cursor() as cur:
                 execute_values(cur, query, data)
-                print(f"Successfully loaded {len(data)} rows.")
+                print(f"Successfully loaded {len(data)} rows in {table_name}")
     except Exception as e:
         print(f"Error: {e}")
     finally:
