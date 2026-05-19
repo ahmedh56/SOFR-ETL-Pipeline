@@ -31,7 +31,7 @@ Automated ETL pipeline that ingests benchmark interest rates (SOFR, 10Y Treasury
 4. Run: `python app.py`
 
 ## Database Schema
-TBC
+TBC.
 
 ## Future Enhancements
 - Add data validation layer (weekend/holiday checks)
